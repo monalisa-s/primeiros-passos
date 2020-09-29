@@ -10,26 +10,28 @@ h1 {
     font-size: 24px;
 }
 
-@media (min-width: 768px) {
-    p {
-        font-size: 18px;
-    }
-    img {
-        width: 700px;
-    }
-    footer {
-        font-size: 10px;
-    }
+p {
+    font-size: 12px;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    background-color: ivory;
+    padding: 20px;
+
 }
 
 /* o . é pra identificar uma classe*/
 .images {
-    padding: 50px 0;
-    margin:0 2em;
+    margin: 5px;
+    flex-direction: column;
+
 }
 
-img {
-    width: 300px;
+.detalhes {
+    padding: 10px;
 }
 
 footer {
@@ -37,7 +39,31 @@ footer {
     color: coral;
 }
 
-/*elementos de link com atributo de title vão ser coral*/
-a[title] {
-    color: coral;
+@media (min-width: 768px) {
+    p {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: x-large
+    }
+    img {
+        width: 300px;
+    }
+    footer {
+        font-size: 10px;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        background-color: #f0efeb;
+
+    }
+    .images > .detalhes {
+        flex: 1 1 30%; /*grow | shrink | basis */
+        height: 300px;
+        padding: 30px;
+    }
+
+    
 }
