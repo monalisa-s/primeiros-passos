@@ -33,7 +33,7 @@ document.body.append(div);
 document.getElementById('saudacao').remove();
 */
 
-// Exemplo de click
+/* Exemplo de click
 function mostrarMensagem() {
   alert('Oi gurias!');
-}
+}*/

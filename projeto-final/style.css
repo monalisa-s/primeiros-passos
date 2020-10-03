@@ -1,0 +1,51 @@
+body {
+    color: black;
+    background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    margin: 5%;
+    font-family: 'Courier Prime', monospace;
+    font-size: 24px;
+
+}
+
+.perfil {
+    color: white;
+
+}
+
+.perfil img {
+    width: 150px;
+    border-radius: 200px;
+    height: 150px;
+    border-style: groove;
+}
+
+.redes-sociais {
+    padding: 10px;
+
+}
+
+.redes-sociais img {
+    width: 20px;
+}
+
+a {
+    color: coral;
+}
+
+@media screen and (max-width: 767px) {
+    .body {
+        display: block;
+        padding: 20px;
+        background-size: cover;
+    }
+
+    img {
+        display: flex;
+        align-items: center;
+        
+    }
+
+}
